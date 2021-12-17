@@ -21,7 +21,7 @@ A double-ended queue based on a double-linked list.
     var q collection.Deque[int]
     q.PushFront(42)
     q.PushFront(17)
-    value, ok := q.PopBack() // 42
+    value, ok := q.PopBack() // 42 true
 ```
 
 ## Graph
@@ -45,7 +45,7 @@ A binary min heap. Trivial to use as a priority queue, just set the key to the n
     var h collection.Heap[int, string]
     h.Push(42, "foo")
     h.Push(17, "bar")
-    key, value, _ := h.Pop()  // 17 "bar"
+    key, value, ok := h.Pop()  // 17 "bar" true
 ```
 
 ## Slice
@@ -54,5 +54,5 @@ A binary min heap. Trivial to use as a priority queue, just set the key to the n
     var s collection.Slice[int]
     s.PushBack(42)
     s.PushBack(17)
-    value, _ := s.PopBack() // 17
+    value, ok := s.PopBack() // 17 true
 ```
