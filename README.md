@@ -1,8 +1,7 @@
 # collection
 
-![CI](https://github.com/tomyl/collection/actions/workflows/ci.yml/badge.svg?branch=main&event=push)
+[![CI](https://github.com/tomyl/collection/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/tomyl/collection/actions/workflows/ci.yml)
 [![GoDoc](https://godoc.org/github.com/tomyl/collection?status.png)](http://godoc.org/github.com/tomyl/collection)
-[![Go Report Card](https://goreportcard.com/badge/github.com/tomyl/collection)](https://goreportcard.com/report/github.com/tomyl/collection)
 
 A few generic data structures for Go. Tested with `go1.18beta1`.
 
