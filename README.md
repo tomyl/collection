@@ -1,5 +1,6 @@
 # collection
 
+![CI](https://github.com/tomyl/collection/actions/workflows/ci.yml/badge.svg?branch=main&event=push)
 [![GoDoc](https://godoc.org/github.com/tomyl/collection?status.png)](http://godoc.org/github.com/tomyl/collection)
 [![Go Report Card](https://goreportcard.com/badge/github.com/tomyl/collection)](https://goreportcard.com/report/github.com/tomyl/collection)
 
