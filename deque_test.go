@@ -11,6 +11,7 @@ import (
 func ExampleDeque() {
 	var q collection.Deque[int]
 	q.PushFront(42)
+	q.PushFront(17)
 	value, _ := q.PopBack()
 	fmt.Println(value)
 	// Output: 42

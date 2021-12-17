@@ -10,9 +10,10 @@ import (
 func ExampleSlice() {
 	var s collection.Slice[int]
 	s.PushBack(42)
+	s.PushBack(17)
 	value, _ := s.PopBack()
 	fmt.Println(value)
-	// Output: 42
+	// Output: 17
 }
 
 func TestSlice(t *testing.T) {
